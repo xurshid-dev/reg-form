@@ -1,0 +1,64 @@
+
+
+body 
+{font-family: Arial, Helvetica, sans-serif;}
+{box-sizing: border-box;}
+
+
+
+h2 {
+  text-align: center;
+}
+
+h2::before { 
+    content: "-------";
+    color: black;
+
+}
+h2::after { 
+    content: "-------";
+    color: black;
+
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid rgb(88, 163, 238);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(2, 11, 20);
+  color: rgb(255, 255, 255);
+  padding: 17px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 2;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+body {
+    background-image: url(minimal-mojave-day-gi-1336x768.jpg);
+    
+}
